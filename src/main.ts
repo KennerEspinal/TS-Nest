@@ -3,7 +3,7 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 // import { name } from './bases/01-types'
-import { Bolbasor } from './bases/02-object.ts'
+// import { pokemons } from './bases/02-object.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -21,7 +21,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Click on the Vite and TypeScript logos to learn more
     </p>
     <p>
-      ${Bolbasor.name}
+      ${'Hello Vite!'}
     </p>
   </div>
 `

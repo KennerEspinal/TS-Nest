@@ -36,4 +36,26 @@ export const Bolbasor:Pokemon = {
     },    
 }
 
-console.log(pokemosIds);
+export const Charmander:Pokemon = {
+    id: 4,
+    name: 'Charmander',
+    type: 'Fire',
+    base_experience: 62,
+    height: 6,
+    weight: 85,
+    abilities: ['Blaze', 'Solar Power'],
+    stats: {
+        hp: 39,
+        attack: 52,
+        defense: 43,
+        speed: 65,
+        special_attack: 60,
+        special_defense: 50,
+    },    
+}
+
+export const pokemons: Pokemon[] = [];
+
+pokemons.push(Bolbasor, Charmander);
+console.log(pokemons);
+
